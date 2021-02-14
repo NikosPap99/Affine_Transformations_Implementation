@@ -9,6 +9,6 @@ More generally, an affine transformation is an automorphism of an affine space (
 
 ## Instructions
 
-The script can be run with the command "python AffineTransformations.py <inputImageName> <a1> <a2> <a3> <a4> <a5> <a6>", where inputImageName needs to be the path of the image you wish to process (highly recommend the image in this repository because I've come across problems with other pictures) and a1, a2, a3, a4, a5, a6 are the first 6 numbers of the 3x3 Affine Transformation matrix (the last row is always [0 0 1]). For example, python AffineTransformations.py brain0030slice150_101x101.png 0 1 0 -1 0 0 will rotate the picture bt 90 degrees and show the result.
+The script can be run with the command "python AffineTransformations.py inputImageName a1 a2 a3 a4 a5 a6", where inputImageName needs to be the path of the image you wish to process (highly recommend the image in this repository because I've come across problems with other pictures) and a1, a2, a3, a4, a5, a6 are the first 6 numbers of the 3x3 Affine Transformation matrix (the last row is always [0 0 1]). For example, python AffineTransformations.py brain0030slice150_101x101.png 0 1 0 -1 0 0 will rotate the picture by 90 degrees and show the result.
 
 For more information about how the 6 parameters can be used to scale/rotate etc the image, you can check out this guide: https://www.mathworks.com/discovery/affine-transformation.html. You can also check out the jupyter notebook presentation in order to understand the process and check out the examples I included.
