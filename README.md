@@ -1,5 +1,5 @@
 # Affine_Transformations_Implementation
- Script and jupyter notebook presentation of an implementation on affine transformations, using numpy and PIL.
+ Script and jupyter notebook presentation of an implementation of affine transformations, using numpy and PIL.
 
 ## Description
 
